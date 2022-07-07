@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jira Ticket Management App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="nav-cont">
+      <div class="priority-cont">
+        <div class="lightpink priority-color"></div>
+        <div class="lightblue priority-color"></div>
+        <div class="lightgreen priority-color"></div>
+        <div class="black priority-color"></div>
+      </div>
+      <div class="action-cont">
+        <div class="action-taker plus">
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="action-taker cross">
+          <i class="fa-solid fa-x"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-cont"></div>
+
+    <div class="modal-cont">
+      <div class="task-area">
+        <textarea class="task-area-text" spellcheck="false"></textarea>
+      </div>
+      <div class="priority-colors">
+        <div class="lightpink priority-color"></div>
+        <div class="lightblue priority-color"></div>
+        <div class="lightgreen priority-color"></div>
+        <div class="black priority-color border"></div>
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+  <script src="./main.js"></script>
+</html>
